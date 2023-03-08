@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+    font-family: 'Roboto', sans-serif;
+
+    background-image: url(/images/mountains-universe-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    padding: 40px 72px;
+    height: 122px;
+}
+
+nav a {
+    text-decoration: none;
+
+    height: 22px;
+    font-size: 21.6667px;
+    line-height: 22px;
+
+    color: #C4C4CC;
+}
+
+nav a:hover  {
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+
+/* Home Page */
+
+#home-page {
+    margin-top: 260px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+#home-page h1 {
+    height: 60px;
+
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+
+
+    color: #E1E1E6;
+}
+
+#home-page button {
+ 
+    padding: 12px 32px;
+    width: 195px;
+    height: 48px;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    background: none;
+    cursor: pointer;
+}
+
+#home-page button:hover {
+    font-size: 15px;
+}
+
+/* The Universe and Exploration pages */
+
+#theuniverse-page, #exploration-page {
+    margin: 103px;
+}
+
+#theuniverse-page h1, #exploration-page h1 {
+    height: 60px;
+    width: 648px;
+
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+
+    color: #E1E1E6;
+}
+
+#theuniverse-page p, #exploration-page p {
+    height: 203px;
+    width: 648px;
+    margin-top: 16px;
+
+    font-size: 18px;
+    line-height: 160%;
+
+    color: #E1E1E6;
+}
+
+.selected {
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
